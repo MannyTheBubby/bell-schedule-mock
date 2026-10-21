@@ -1,0 +1,33 @@
+name: Update Today's Schedule Endpoint
+
+on:
+  schedule:
+    # Runs daily at 04:05 UTC (00:05 EST / 00:05 EDT)
+    - cron: '5 4 * * *'
+  workflow_dispatch: # Allows manual trigger via GitHub UI
+
+jobs:
+  update-schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Copy Today's Schedule to Root
+        run: |
+          TODAY=$(date +'%Y-%m-%d')
+          if [ -f "schedules/${TODAY}.json" ]; then
+            cp "schedules/${TODAY}.json" schedule.json
+            echo "Updated schedule.json with schedule for ${TODAY}"
+          else
+            echo "Schedule file for ${TODAY} not found!"
+          fi
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add schedule.json
+          git status
+          git diff-index --quiet HEAD || git commit -m "Auto-update schedule.json for $(date +'%Y-%m-%d')"
+          git push
