@@ -55,36 +55,14 @@
                     "end_epoch": 1801238640
                 },
                 {
-                    "period_id": "B5A",
-                    "name": "Lunch 5A",
-                    "type": "lunch",
-                    "start_time": "11:09",
-                    "end_time": "11:39",
-                    "start_iso": "2027-01-29T11:09:00-05:00",
-                    "end_iso": "2027-01-29T11:39:00-05:00",
-                    "start_epoch": 1801238940,
-                    "end_epoch": 1801240740
-                },
-                {
-                    "period_id": "B5B",
-                    "name": "Lunch 5B",
-                    "type": "lunch",
-                    "start_time": "11:43",
-                    "end_time": "12:13",
-                    "start_iso": "2027-01-29T11:43:00-05:00",
-                    "end_iso": "2027-01-29T12:13:00-05:00",
-                    "start_epoch": 1801240980,
-                    "end_epoch": 1801242780
-                },
-                {
-                    "period_id": "B5C",
-                    "name": "Lunch 5C",
-                    "type": "lunch",
-                    "start_time": "12:18",
+                    "period_id": "B5",
+                    "name": "Bell 5 & Lunches",
+                    "type": "instructional",
+                    "start_time": "11:08",
                     "end_time": "12:48",
-                    "start_iso": "2027-01-29T12:18:00-05:00",
+                    "start_iso": "2027-01-29T11:08:00-05:00",
                     "end_iso": "2027-01-29T12:48:00-05:00",
-                    "start_epoch": 1801243080,
+                    "start_epoch": 1801238880,
                     "end_epoch": 1801244880
                 },
                 {
@@ -108,6 +86,17 @@
                     "end_iso": "2027-01-29T14:30:00-05:00",
                     "start_epoch": 1801248420,
                     "end_epoch": 1801251000
+                },
+                {
+                    "period_id": "P8",
+                    "name": "Period 8",
+                    "type": "instructional",
+                    "start_time": "14:30",
+                    "end_time": "14:35",
+                    "start_iso": "2027-01-29T14:30:00-05:00",
+                    "end_iso": "2027-01-29T14:35:00-05:00",
+                    "start_epoch": 1801251000,
+                    "end_epoch": 1801251300
                 }
             ]
         },

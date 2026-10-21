@@ -11,8 +11,8 @@
             "cycle_day": "C",
             "periods": [
                 {
-                    "period_id": "B2",
-                    "name": "Bell 2",
+                    "period_id": "B6",
+                    "name": "Bell 6",
                     "type": "instructional",
                     "start_time": "07:45",
                     "end_time": "08:55",
@@ -22,8 +22,8 @@
                     "end_epoch": 1796219700
                 },
                 {
-                    "period_id": "B5",
-                    "name": "Bell 5",
+                    "period_id": "B4",
+                    "name": "Bell 4",
                     "type": "instructional",
                     "start_time": "09:00",
                     "end_time": "10:10",
@@ -33,30 +33,30 @@
                     "end_epoch": 1796224200
                 },
                 {
-                    "period_id": "B3",
-                    "name": "Bell 3",
-                    "type": "instructional",
-                    "start_time": "10:15",
-                    "end_time": "12:00",
-                    "start_iso": "2026-12-02T10:15:00-05:00",
-                    "end_iso": "2026-12-02T12:00:00-05:00",
-                    "start_epoch": 1796224500,
-                    "end_epoch": 1796230800
-                },
-                {
                     "period_id": "CRW",
                     "name": "Connect",
                     "type": "advisory",
-                    "start_time": "12:05",
+                    "start_time": "10:15",
+                    "end_time": "11:25",
+                    "start_iso": "2026-12-02T10:15:00-05:00",
+                    "end_iso": "2026-12-02T11:25:00-05:00",
+                    "start_epoch": 1796224500,
+                    "end_epoch": 1796228700
+                },
+                {
+                    "period_id": "B5",
+                    "name": "Bell 5 & Lunches",
+                    "type": "instructional",
+                    "start_time": "11:30",
                     "end_time": "13:15",
-                    "start_iso": "2026-12-02T12:05:00-05:00",
+                    "start_iso": "2026-12-02T11:30:00-05:00",
                     "end_iso": "2026-12-02T13:15:00-05:00",
-                    "start_epoch": 1796231100,
+                    "start_epoch": 1796229000,
                     "end_epoch": 1796235300
                 },
                 {
-                    "period_id": "B6",
-                    "name": "Bell 6",
+                    "period_id": "B7",
+                    "name": "Bell 7",
                     "type": "instructional",
                     "start_time": "13:20",
                     "end_time": "14:30",
@@ -64,6 +64,17 @@
                     "end_iso": "2026-12-02T14:30:00-05:00",
                     "start_epoch": 1796235600,
                     "end_epoch": 1796239800
+                },
+                {
+                    "period_id": "P8",
+                    "name": "Period 8",
+                    "type": "instructional",
+                    "start_time": "14:30",
+                    "end_time": "14:35",
+                    "start_iso": "2026-12-02T14:30:00-05:00",
+                    "end_iso": "2026-12-02T14:35:00-05:00",
+                    "start_epoch": 1796239800,
+                    "end_epoch": 1796240100
                 }
             ]
         },
