@@ -1,0 +1,22 @@
+{
+    "status": "success",
+    "timezone": "America/New_York",
+    "date": "2027-01-10",
+    "is_school_day": false,
+    "buildings": [
+        {
+            "building_id": "MHS",
+            "building_name": "Mason High School",
+            "schedule_type": "No School",
+            "cycle_day": null,
+            "periods": []
+        },
+        {
+            "building_id": "MMS",
+            "building_name": "Mason Middle School",
+            "schedule_type": "No School",
+            "cycle_day": null,
+            "periods": []
+        }
+    ]
+}
