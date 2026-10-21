@@ -2,9 +2,12 @@ name: Update Today's Schedule Endpoint
 
 on:
   schedule:
-    # Runs daily at 04:05 UTC (00:05 EST / 00:05 EDT)
     - cron: '5 4 * * *'
-  workflow_dispatch: # Allows manual trigger via GitHub UI
+  workflow_dispatch:
+
+# Add write permission for repository contents
+permissions:
+  contents: write
 
 jobs:
   update-schedule:
