@@ -27,39 +27,41 @@ TEMPLATES = {
             {"id": "B5", "name": "Bell 5 & Lunches", "type": "instructional", "start": "11:08", "end": "12:48"},
             {"id": "B6", "name": "Bell 6", "type": "instructional", "start": "12:53", "end": "13:39"},
             {"id": "B7", "name": "Bell 7", "type": "instructional", "start": "13:44", "end": "14:30"},
+            {"id": "P8", "name": "Period 8", "type": "instructional", "start": "14:30", "end": "14:35"}
         ],
         "Tuesday": [
             {"id": "B1", "name": "Bell 1", "type": "instructional", "start": "07:45", "end": "08:55"},
             {"id": "B2", "name": "Bell 2", "type": "instructional", "start": "09:00", "end": "10:10"},
             {"id": "B3", "name": "Bell 3", "type": "instructional", "start": "10:15", "end": "11:25"},
-            {"id": "B5", "name": "Bell 5", "type": "instructional", "start": "11:30", "end": "13:15"},
+            {"id": "B5", "name": "Bell 5 & Lunches", "type": "instructional", "start": "11:30", "end": "13:15"},
             {"id": "B7", "name": "Bell 7", "type": "instructional", "start": "13:20", "end": "14:30"},
             {"id": "P8", "name": "Period 8", "type": "instructional", "start": "14:30", "end": "14:35"}
         ],
         "Wednesday": [
-            {"id": "B2", "name": "Bell 2", "type": "instructional", "start": "07:45", "end": "08:55"},
-            {"id": "B5", "name": "Bell 5", "type": "instructional", "start": "09:00", "end": "10:10"},
-            {"id": "B3", "name": "Bell 3", "type": "instructional", "start": "10:15", "end": "12:00"},
-            {"id": "CRW", "name": "Connect", "type": "advisory", "start": "12:05", "end": "13:15"},
-            {"id": "B6", "name": "Bell 6", "type": "instructional", "start": "13:20", "end": "14:30"}
+            {"id": "B6", "name": "Bell 6", "type": "instructional", "start": "07:45", "end": "08:55"},
+            {"id": "B4", "name": "Bell 4", "type": "instructional", "start": "09:00", "end": "10:10"},
+            {"id": "CRW", "name": "Connect", "type": "advisory", "start": "10:15", "end": "11:25"},
+            {"id": "B5", "name": "Bell 5 & Lunches", "type": "instructional", "start": "11:30", "end": "13:15"},
+            {"id": "B7", "name": "Bell 7", "type": "instructional", "start": "13:20", "end": "14:30"},
+            {"id": "P8", "name": "Period 8", "type": "instructional", "start": "14:30", "end": "14:35"}
         ],
         "Thursday": [
             {"id": "B1", "name": "Bell 1", "type": "instructional", "start": "07:45", "end": "08:55"},
-            {"id": "B4", "name": "Bell 4", "type": "instructional", "start": "09:00", "end": "10:10"},
+            {"id": "B2", "name": "Bell 2", "type": "instructional", "start": "09:00", "end": "10:10"},
             {"id": "B3", "name": "Bell 3", "type": "instructional", "start": "10:15", "end": "11:25"},
-            {"id": "B5", "name": "Bell 5 & Lunches", "type": "instructional", "start": "11:30", "end": "13:15"},
-            {"id": "B7", "name": "Bell 7", "type": "instructional", "start": "13:20", "end": "14:30"}
+            {"id": "B4", "name": "Bell 4 & Lunches", "type": "instructional", "start": "11:30", "end": "13:15"},
+            {"id": "B6", "name": "Bell 6", "type": "instructional", "start": "13:20", "end": "14:30"},
+            {"id": "P8", "name": "Period 8", "type": "instructional", "start": "14:30", "end": "14:35"}
         ],
         "Friday": [
             {"id": "B1", "name": "Bell 1", "type": "instructional", "start": "07:45", "end": "08:30"},
             {"id": "B2", "name": "Bell 2", "type": "instructional", "start": "08:35", "end": "09:18"},
             {"id": "B3", "name": "Bell 3", "type": "instructional", "start": "09:23", "end": "10:16"},
             {"id": "B4", "name": "Bell 4", "type": "instructional", "start": "10:21", "end": "11:04"},
-            {"id": "B5A", "name": "Lunch 5A", "type": "lunch", "start": "11:09", "end": "11:39"},
-            {"id": "B5B", "name": "Lunch 5B", "type": "lunch", "start": "11:43", "end": "12:13"},
-            {"id": "B5C", "name": "Lunch 5C", "type": "lunch", "start": "12:18", "end": "12:48"},
+            {"id": "B5", "name": "Bell 5 & Lunches", "type": "instructional", "start": "11:08", "end": "12:48"},
             {"id": "B6", "name": "Bell 6", "type": "instructional", "start": "12:59", "end": "13:42"},
-            {"id": "B7", "name": "Bell 7", "type": "instructional", "start": "13:47", "end": "14:30"}
+            {"id": "B7", "name": "Bell 7", "type": "instructional", "start": "13:47", "end": "14:30"},
+            {"id": "P8", "name": "Period 8", "type": "instructional", "start": "14:30", "end": "14:35"}
         ]
     },
     "MMS": {
