@@ -2,10 +2,10 @@ name: Update Today's Schedule Endpoint
 
 on:
   schedule:
+    # Runs daily at 04:05 UTC (00:05 EST / 00:05 EDT)
     - cron: '5 4 * * *'
   workflow_dispatch:
 
-# Add write permission for repository contents
 permissions:
   contents: write
 
@@ -19,6 +19,13 @@ jobs:
       - name: Copy Today's Schedule to Root
         run: |
           TODAY=$(date +'%Y-%m-%d')
+          END_DATE="2027-06-01"
+
+          if [[ "$TODAY" > "$END_DATE" ]]; then
+            echo "Current date ($TODAY) is past the 2026-2027 school year end date ($END_DATE). Action is inactive."
+            exit 0
+          fi
+
           if [ -f "schedules/${TODAY}.json" ]; then
             cp "schedules/${TODAY}.json" schedule.json
             echo "Updated schedule.json with schedule for ${TODAY}"
@@ -28,9 +35,17 @@ jobs:
 
       - name: Commit and Push
         run: |
+          TODAY=$(date +'%Y-%m-%d')
+          END_DATE="2027-06-01"
+
+          if [[ "$TODAY" > "$END_DATE" ]]; then
+            echo "School year ended. Skipping commit."
+            exit 0
+          fi
+
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add schedule.json
           git status
-          git diff-index --quiet HEAD || git commit -m "Auto-update schedule.json for $(date +'%Y-%m-%d')"
+          git diff-index --quiet HEAD || git commit -m "Auto-update schedule.json for ${TODAY}"
           git push
