@@ -7,76 +7,9 @@
         {
             "building_id": "MHS",
             "building_name": "Mason High School",
-            "schedule_type": "Tuesday",
-            "cycle_day": "B",
-            "periods": [
-                {
-                    "period_id": "B1",
-                    "name": "Bell 1",
-                    "type": "instructional",
-                    "start_time": "07:45",
-                    "end_time": "08:55",
-                    "start_iso": "2027-02-23T07:45:00-05:00",
-                    "end_iso": "2027-02-23T08:55:00-05:00",
-                    "start_epoch": 1803386700,
-                    "end_epoch": 1803390900
-                },
-                {
-                    "period_id": "B2",
-                    "name": "Bell 2",
-                    "type": "instructional",
-                    "start_time": "09:00",
-                    "end_time": "10:10",
-                    "start_iso": "2027-02-23T09:00:00-05:00",
-                    "end_iso": "2027-02-23T10:10:00-05:00",
-                    "start_epoch": 1803391200,
-                    "end_epoch": 1803395400
-                },
-                {
-                    "period_id": "B3",
-                    "name": "Bell 3",
-                    "type": "instructional",
-                    "start_time": "10:15",
-                    "end_time": "11:25",
-                    "start_iso": "2027-02-23T10:15:00-05:00",
-                    "end_iso": "2027-02-23T11:25:00-05:00",
-                    "start_epoch": 1803395700,
-                    "end_epoch": 1803399900
-                },
-                {
-                    "period_id": "B5",
-                    "name": "Bell 5 & Lunches",
-                    "type": "instructional",
-                    "start_time": "11:30",
-                    "end_time": "13:15",
-                    "start_iso": "2027-02-23T11:30:00-05:00",
-                    "end_iso": "2027-02-23T13:15:00-05:00",
-                    "start_epoch": 1803400200,
-                    "end_epoch": 1803406500
-                },
-                {
-                    "period_id": "B7",
-                    "name": "Bell 7",
-                    "type": "instructional",
-                    "start_time": "13:20",
-                    "end_time": "14:30",
-                    "start_iso": "2027-02-23T13:20:00-05:00",
-                    "end_iso": "2027-02-23T14:30:00-05:00",
-                    "start_epoch": 1803406800,
-                    "end_epoch": 1803411000
-                },
-                {
-                    "period_id": "P8",
-                    "name": "Period 8",
-                    "type": "instructional",
-                    "start_time": "14:30",
-                    "end_time": "14:35",
-                    "start_iso": "2027-02-23T14:30:00-05:00",
-                    "end_iso": "2027-02-23T14:35:00-05:00",
-                    "start_epoch": 1803411000,
-                    "end_epoch": 1803411300
-                }
-            ]
+            "schedule_type": "No School",
+            "cycle_day": null,
+            "periods": []
         },
         {
             "building_id": "MMS",
