@@ -8,73 +8,51 @@
             "building_id": "MHS",
             "building_name": "Mason High School",
             "schedule_type": "Thursday",
-            "cycle_day": "D",
+            "cycle_day": "F",
             "periods": [
                 {
-                    "period_id": "B1",
-                    "name": "Bell 1",
+                    "period_id": "B4",
+                    "name": "Bell 4",
                     "type": "instructional",
                     "start_time": "07:45",
-                    "end_time": "08:55",
+                    "end_time": "07:50",
                     "start_iso": "2027-05-20T07:45:00-04:00",
-                    "end_iso": "2027-05-20T08:55:00-04:00",
+                    "end_iso": "2027-05-20T07:50:00-04:00",
                     "start_epoch": 1810813500,
-                    "end_epoch": 1810817700
-                },
-                {
-                    "period_id": "B2",
-                    "name": "Bell 2",
-                    "type": "instructional",
-                    "start_time": "09:00",
-                    "end_time": "10:10",
-                    "start_iso": "2027-05-20T09:00:00-04:00",
-                    "end_iso": "2027-05-20T10:10:00-04:00",
-                    "start_epoch": 1810818000,
-                    "end_epoch": 1810822200
-                },
-                {
-                    "period_id": "B3",
-                    "name": "Bell 3",
-                    "type": "instructional",
-                    "start_time": "10:15",
-                    "end_time": "11:25",
-                    "start_iso": "2027-05-20T10:15:00-04:00",
-                    "end_iso": "2027-05-20T11:25:00-04:00",
-                    "start_epoch": 1810822500,
-                    "end_epoch": 1810826700
+                    "end_epoch": 1810813800
                 },
                 {
                     "period_id": "B4",
-                    "name": "Bell 4 & Lunches",
-                    "type": "instructional",
-                    "start_time": "11:30",
-                    "end_time": "13:15",
-                    "start_iso": "2027-05-20T11:30:00-04:00",
-                    "end_iso": "2027-05-20T13:15:00-04:00",
-                    "start_epoch": 1810827000,
-                    "end_epoch": 1810833300
+                    "name": "Exam 4",
+                    "type": "exam",
+                    "start_time": "07:50",
+                    "end_time": "09:20",
+                    "start_iso": "2027-05-20T07:50:00-04:00",
+                    "end_iso": "2027-05-20T09:20:00-04:00",
+                    "start_epoch": 1810813800,
+                    "end_epoch": 1810819200
                 },
                 {
                     "period_id": "B6",
                     "name": "Bell 6",
                     "type": "instructional",
-                    "start_time": "13:20",
-                    "end_time": "14:30",
-                    "start_iso": "2027-05-20T13:20:00-04:00",
-                    "end_iso": "2027-05-20T14:30:00-04:00",
-                    "start_epoch": 1810833600,
-                    "end_epoch": 1810837800
+                    "start_time": "09:30",
+                    "end_time": "09:35",
+                    "start_iso": "2027-05-20T09:30:00-04:00",
+                    "end_iso": "2027-05-20T09:35:00-04:00",
+                    "start_epoch": 1810819800,
+                    "end_epoch": 1810820100
                 },
                 {
-                    "period_id": "P8",
-                    "name": "Period 8",
-                    "type": "instructional",
-                    "start_time": "14:30",
-                    "end_time": "14:35",
-                    "start_iso": "2027-05-20T14:30:00-04:00",
-                    "end_iso": "2027-05-20T14:35:00-04:00",
-                    "start_epoch": 1810837800,
-                    "end_epoch": 1810838100
+                    "period_id": "B6",
+                    "name": "Exam 6",
+                    "type": "exam",
+                    "start_time": "09:35",
+                    "end_time": "11:05",
+                    "start_iso": "2027-05-20T09:35:00-04:00",
+                    "end_iso": "2027-05-20T11:05:00-04:00",
+                    "start_epoch": 1810820100,
+                    "end_epoch": 1810825500
                 }
             ]
         },

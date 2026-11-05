@@ -2,210 +2,21 @@
     "status": "success",
     "timezone": "America/New_York",
     "date": "2026-11-26",
-    "is_school_day": true,
+    "is_school_day": false,
     "buildings": [
         {
             "building_id": "MHS",
             "building_name": "Mason High School",
-            "schedule_type": "Thursday",
-            "cycle_day": "D",
-            "periods": [
-                {
-                    "period_id": "B1",
-                    "name": "Bell 1",
-                    "type": "instructional",
-                    "start_time": "07:45",
-                    "end_time": "08:55",
-                    "start_iso": "2026-11-26T07:45:00-05:00",
-                    "end_iso": "2026-11-26T08:55:00-05:00",
-                    "start_epoch": 1795697100,
-                    "end_epoch": 1795701300
-                },
-                {
-                    "period_id": "B2",
-                    "name": "Bell 2",
-                    "type": "instructional",
-                    "start_time": "09:00",
-                    "end_time": "10:10",
-                    "start_iso": "2026-11-26T09:00:00-05:00",
-                    "end_iso": "2026-11-26T10:10:00-05:00",
-                    "start_epoch": 1795701600,
-                    "end_epoch": 1795705800
-                },
-                {
-                    "period_id": "B3",
-                    "name": "Bell 3",
-                    "type": "instructional",
-                    "start_time": "10:15",
-                    "end_time": "11:25",
-                    "start_iso": "2026-11-26T10:15:00-05:00",
-                    "end_iso": "2026-11-26T11:25:00-05:00",
-                    "start_epoch": 1795706100,
-                    "end_epoch": 1795710300
-                },
-                {
-                    "period_id": "B4",
-                    "name": "Bell 4 & Lunches",
-                    "type": "instructional",
-                    "start_time": "11:30",
-                    "end_time": "13:15",
-                    "start_iso": "2026-11-26T11:30:00-05:00",
-                    "end_iso": "2026-11-26T13:15:00-05:00",
-                    "start_epoch": 1795710600,
-                    "end_epoch": 1795716900
-                },
-                {
-                    "period_id": "B6",
-                    "name": "Bell 6",
-                    "type": "instructional",
-                    "start_time": "13:20",
-                    "end_time": "14:30",
-                    "start_iso": "2026-11-26T13:20:00-05:00",
-                    "end_iso": "2026-11-26T14:30:00-05:00",
-                    "start_epoch": 1795717200,
-                    "end_epoch": 1795721400
-                },
-                {
-                    "period_id": "P8",
-                    "name": "Period 8",
-                    "type": "instructional",
-                    "start_time": "14:30",
-                    "end_time": "14:35",
-                    "start_iso": "2026-11-26T14:30:00-05:00",
-                    "end_iso": "2026-11-26T14:35:00-05:00",
-                    "start_epoch": 1795721400,
-                    "end_epoch": 1795721700
-                }
-            ]
+            "schedule_type": "No School",
+            "cycle_day": null,
+            "periods": []
         },
         {
             "building_id": "MMS",
             "building_name": "Mason Middle School",
-            "schedule_type": "Regular Day",
-            "cycle_day": "D",
-            "periods": [
-                {
-                    "period_id": "CRW",
-                    "name": "CREW",
-                    "type": "instructional",
-                    "start_time": "07:40",
-                    "end_time": "08:10",
-                    "start_iso": "2026-11-26T07:40:00-05:00",
-                    "end_iso": "2026-11-26T08:10:00-05:00",
-                    "start_epoch": 1795696800,
-                    "end_epoch": 1795698600
-                },
-                {
-                    "period_id": "P1",
-                    "name": "Period 1",
-                    "type": "instructional",
-                    "start_time": "08:14",
-                    "end_time": "09:04",
-                    "start_iso": "2026-11-26T08:14:00-05:00",
-                    "end_iso": "2026-11-26T09:04:00-05:00",
-                    "start_epoch": 1795698840,
-                    "end_epoch": 1795701840
-                },
-                {
-                    "period_id": "P2",
-                    "name": "Period 2",
-                    "type": "instructional",
-                    "start_time": "09:08",
-                    "end_time": "09:58",
-                    "start_iso": "2026-11-26T09:08:00-05:00",
-                    "end_iso": "2026-11-26T09:58:00-05:00",
-                    "start_epoch": 1795702080,
-                    "end_epoch": 1795705080
-                },
-                {
-                    "period_id": "P3",
-                    "name": "Period 3",
-                    "type": "instructional",
-                    "start_time": "10:02",
-                    "end_time": "10:52",
-                    "start_iso": "2026-11-26T10:02:00-05:00",
-                    "end_iso": "2026-11-26T10:52:00-05:00",
-                    "start_epoch": 1795705320,
-                    "end_epoch": 1795708320
-                },
-                {
-                    "period_id": "P4",
-                    "name": "Period 4",
-                    "type": "instructional",
-                    "start_time": "10:56",
-                    "end_time": "12:34",
-                    "start_iso": "2026-11-26T10:56:00-05:00",
-                    "end_iso": "2026-11-26T12:34:00-05:00",
-                    "start_epoch": 1795708560,
-                    "end_epoch": 1795714440
-                },
-                {
-                    "period_id": "LA",
-                    "name": "Lunch A",
-                    "type": "lunch",
-                    "start_time": "10:56",
-                    "end_time": "11:26",
-                    "start_iso": "2026-11-26T10:56:00-05:00",
-                    "end_iso": "2026-11-26T11:26:00-05:00",
-                    "start_epoch": 1795708560,
-                    "end_epoch": 1795710360
-                },
-                {
-                    "period_id": "LB",
-                    "name": "Lunch B",
-                    "type": "lunch",
-                    "start_time": "11:30",
-                    "end_time": "12:00",
-                    "start_iso": "2026-11-26T11:30:00-05:00",
-                    "end_iso": "2026-11-26T12:00:00-05:00",
-                    "start_epoch": 1795710600,
-                    "end_epoch": 1795712400
-                },
-                {
-                    "period_id": "LC",
-                    "name": "Lunch C",
-                    "type": "lunch",
-                    "start_time": "12:04",
-                    "end_time": "12:34",
-                    "start_iso": "2026-11-26T12:04:00-05:00",
-                    "end_iso": "2026-11-26T12:34:00-05:00",
-                    "start_epoch": 1795712640,
-                    "end_epoch": 1795714440
-                },
-                {
-                    "period_id": "P5",
-                    "name": "Period 5",
-                    "type": "instructional",
-                    "start_time": "12:38",
-                    "end_time": "13:28",
-                    "start_iso": "2026-11-26T12:38:00-05:00",
-                    "end_iso": "2026-11-26T13:28:00-05:00",
-                    "start_epoch": 1795714680,
-                    "end_epoch": 1795717680
-                },
-                {
-                    "period_id": "P6",
-                    "name": "Period 6",
-                    "type": "instructional",
-                    "start_time": "13:32",
-                    "end_time": "14:25",
-                    "start_iso": "2026-11-26T13:32:00-05:00",
-                    "end_iso": "2026-11-26T14:25:00-05:00",
-                    "start_epoch": 1795717920,
-                    "end_epoch": 1795721100
-                },
-                {
-                    "period_id": "P7",
-                    "name": "Period 7",
-                    "type": "instructional",
-                    "start_time": "14:25",
-                    "end_time": "14:30",
-                    "start_iso": "2026-11-26T14:25:00-05:00",
-                    "end_iso": "2026-11-26T14:30:00-05:00",
-                    "start_epoch": 1795721100,
-                    "end_epoch": 1795721400
-                }
-            ]
+            "schedule_type": "No School",
+            "cycle_day": null,
+            "periods": []
         }
     ]
 }

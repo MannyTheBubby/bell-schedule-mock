@@ -7,62 +7,84 @@
         {
             "building_id": "MHS",
             "building_name": "Mason High School",
-            "schedule_type": "Thursday",
-            "cycle_day": "D",
+            "schedule_type": "Friday",
+            "cycle_day": "A",
             "periods": [
                 {
                     "period_id": "B1",
                     "name": "Bell 1",
                     "type": "instructional",
                     "start_time": "07:45",
-                    "end_time": "08:55",
+                    "end_time": "08:30",
                     "start_iso": "2027-02-11T07:45:00-05:00",
-                    "end_iso": "2027-02-11T08:55:00-05:00",
+                    "end_iso": "2027-02-11T08:30:00-05:00",
                     "start_epoch": 1802349900,
-                    "end_epoch": 1802354100
+                    "end_epoch": 1802352600
                 },
                 {
                     "period_id": "B2",
                     "name": "Bell 2",
                     "type": "instructional",
-                    "start_time": "09:00",
-                    "end_time": "10:10",
-                    "start_iso": "2027-02-11T09:00:00-05:00",
-                    "end_iso": "2027-02-11T10:10:00-05:00",
-                    "start_epoch": 1802354400,
-                    "end_epoch": 1802358600
+                    "start_time": "08:35",
+                    "end_time": "09:18",
+                    "start_iso": "2027-02-11T08:35:00-05:00",
+                    "end_iso": "2027-02-11T09:18:00-05:00",
+                    "start_epoch": 1802352900,
+                    "end_epoch": 1802355480
                 },
                 {
                     "period_id": "B3",
                     "name": "Bell 3",
                     "type": "instructional",
-                    "start_time": "10:15",
-                    "end_time": "11:25",
-                    "start_iso": "2027-02-11T10:15:00-05:00",
-                    "end_iso": "2027-02-11T11:25:00-05:00",
-                    "start_epoch": 1802358900,
-                    "end_epoch": 1802363100
+                    "start_time": "09:23",
+                    "end_time": "10:16",
+                    "start_iso": "2027-02-11T09:23:00-05:00",
+                    "end_iso": "2027-02-11T10:16:00-05:00",
+                    "start_epoch": 1802355780,
+                    "end_epoch": 1802358960
                 },
                 {
                     "period_id": "B4",
-                    "name": "Bell 4 & Lunches",
+                    "name": "Bell 4",
                     "type": "instructional",
-                    "start_time": "11:30",
-                    "end_time": "13:15",
-                    "start_iso": "2027-02-11T11:30:00-05:00",
-                    "end_iso": "2027-02-11T13:15:00-05:00",
-                    "start_epoch": 1802363400,
-                    "end_epoch": 1802369700
+                    "start_time": "10:21",
+                    "end_time": "11:04",
+                    "start_iso": "2027-02-11T10:21:00-05:00",
+                    "end_iso": "2027-02-11T11:04:00-05:00",
+                    "start_epoch": 1802359260,
+                    "end_epoch": 1802361840
+                },
+                {
+                    "period_id": "B5",
+                    "name": "Bell 5 & Lunches",
+                    "type": "instructional",
+                    "start_time": "11:08",
+                    "end_time": "12:48",
+                    "start_iso": "2027-02-11T11:08:00-05:00",
+                    "end_iso": "2027-02-11T12:48:00-05:00",
+                    "start_epoch": 1802362080,
+                    "end_epoch": 1802368080
                 },
                 {
                     "period_id": "B6",
                     "name": "Bell 6",
                     "type": "instructional",
-                    "start_time": "13:20",
+                    "start_time": "12:59",
+                    "end_time": "13:42",
+                    "start_iso": "2027-02-11T12:59:00-05:00",
+                    "end_iso": "2027-02-11T13:42:00-05:00",
+                    "start_epoch": 1802368740,
+                    "end_epoch": 1802371320
+                },
+                {
+                    "period_id": "B7",
+                    "name": "Bell 7",
+                    "type": "instructional",
+                    "start_time": "13:47",
                     "end_time": "14:30",
-                    "start_iso": "2027-02-11T13:20:00-05:00",
+                    "start_iso": "2027-02-11T13:47:00-05:00",
                     "end_iso": "2027-02-11T14:30:00-05:00",
-                    "start_epoch": 1802370000,
+                    "start_epoch": 1802371620,
                     "end_epoch": 1802374200
                 },
                 {
@@ -82,7 +104,7 @@
             "building_id": "MMS",
             "building_name": "Mason Middle School",
             "schedule_type": "Regular Day",
-            "cycle_day": "D",
+            "cycle_day": "A",
             "periods": [
                 {
                     "period_id": "CRW",
