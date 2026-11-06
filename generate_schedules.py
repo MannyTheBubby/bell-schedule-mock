@@ -54,13 +54,13 @@ TEMPLATES = {
             {"id": "P8", "name": "Period 8", "type": "instructional", "start": "14:30", "end": "14:35"}
         ],
         "Friday": [
-            {"id": "B1", "name": "Bell 1", "type": "instructional", "start": "07:45", "end": "08:30"},
-            {"id": "B2", "name": "Bell 2", "type": "instructional", "start": "08:35", "end": "09:18"},
-            {"id": "B3", "name": "Bell 3", "type": "instructional", "start": "09:23", "end": "10:16"},
-            {"id": "B4", "name": "Bell 4", "type": "instructional", "start": "10:21", "end": "11:04"},
+            {"id": "B1", "name": "Bell 1", "type": "instructional", "start": "07:45", "end": "08:31"},
+            {"id": "B2", "name": "Bell 2", "type": "instructional", "start": "08:36", "end": "09:22"},
+            {"id": "B3", "name": "Bell 3", "type": "instructional", "start": "09:27", "end": "10:13"},
+            {"id": "B4", "name": "Bell 4", "type": "instructional", "start": "10:18", "end": "11:03"},
             {"id": "B5", "name": "Bell 5 & Lunches", "type": "instructional", "start": "11:08", "end": "12:48"},
-            {"id": "B6", "name": "Bell 6", "type": "instructional", "start": "12:59", "end": "13:42"},
-            {"id": "B7", "name": "Bell 7", "type": "instructional", "start": "13:47", "end": "14:30"},
+            {"id": "B6", "name": "Bell 6", "type": "instructional", "start": "12:53", "end": "13:39"},
+            {"id": "B7", "name": "Bell 7", "type": "instructional", "start": "13:44", "end": "14:30"},
             {"id": "P8", "name": "Period 8", "type": "instructional", "start": "14:30", "end": "14:35"}
         ]
     },

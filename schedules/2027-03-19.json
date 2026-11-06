@@ -15,44 +15,44 @@
                     "name": "Bell 1",
                     "type": "instructional",
                     "start_time": "07:45",
-                    "end_time": "08:30",
+                    "end_time": "08:31",
                     "start_iso": "2027-03-19T07:45:00-04:00",
-                    "end_iso": "2027-03-19T08:30:00-04:00",
+                    "end_iso": "2027-03-19T08:31:00-04:00",
                     "start_epoch": 1805456700,
-                    "end_epoch": 1805459400
+                    "end_epoch": 1805459460
                 },
                 {
                     "period_id": "B2",
                     "name": "Bell 2",
                     "type": "instructional",
-                    "start_time": "08:35",
-                    "end_time": "09:18",
-                    "start_iso": "2027-03-19T08:35:00-04:00",
-                    "end_iso": "2027-03-19T09:18:00-04:00",
-                    "start_epoch": 1805459700,
-                    "end_epoch": 1805462280
+                    "start_time": "08:36",
+                    "end_time": "09:22",
+                    "start_iso": "2027-03-19T08:36:00-04:00",
+                    "end_iso": "2027-03-19T09:22:00-04:00",
+                    "start_epoch": 1805459760,
+                    "end_epoch": 1805462520
                 },
                 {
                     "period_id": "B3",
                     "name": "Bell 3",
                     "type": "instructional",
-                    "start_time": "09:23",
-                    "end_time": "10:16",
-                    "start_iso": "2027-03-19T09:23:00-04:00",
-                    "end_iso": "2027-03-19T10:16:00-04:00",
-                    "start_epoch": 1805462580,
-                    "end_epoch": 1805465760
+                    "start_time": "09:27",
+                    "end_time": "10:13",
+                    "start_iso": "2027-03-19T09:27:00-04:00",
+                    "end_iso": "2027-03-19T10:13:00-04:00",
+                    "start_epoch": 1805462820,
+                    "end_epoch": 1805465580
                 },
                 {
                     "period_id": "B4",
                     "name": "Bell 4",
                     "type": "instructional",
-                    "start_time": "10:21",
-                    "end_time": "11:04",
-                    "start_iso": "2027-03-19T10:21:00-04:00",
-                    "end_iso": "2027-03-19T11:04:00-04:00",
-                    "start_epoch": 1805466060,
-                    "end_epoch": 1805468640
+                    "start_time": "10:18",
+                    "end_time": "11:03",
+                    "start_iso": "2027-03-19T10:18:00-04:00",
+                    "end_iso": "2027-03-19T11:03:00-04:00",
+                    "start_epoch": 1805465880,
+                    "end_epoch": 1805468580
                 },
                 {
                     "period_id": "B5",
@@ -69,22 +69,22 @@
                     "period_id": "B6",
                     "name": "Bell 6",
                     "type": "instructional",
-                    "start_time": "12:59",
-                    "end_time": "13:42",
-                    "start_iso": "2027-03-19T12:59:00-04:00",
-                    "end_iso": "2027-03-19T13:42:00-04:00",
-                    "start_epoch": 1805475540,
-                    "end_epoch": 1805478120
+                    "start_time": "12:53",
+                    "end_time": "13:39",
+                    "start_iso": "2027-03-19T12:53:00-04:00",
+                    "end_iso": "2027-03-19T13:39:00-04:00",
+                    "start_epoch": 1805475180,
+                    "end_epoch": 1805477940
                 },
                 {
                     "period_id": "B7",
                     "name": "Bell 7",
                     "type": "instructional",
-                    "start_time": "13:47",
+                    "start_time": "13:44",
                     "end_time": "14:30",
-                    "start_iso": "2027-03-19T13:47:00-04:00",
+                    "start_iso": "2027-03-19T13:44:00-04:00",
                     "end_iso": "2027-03-19T14:30:00-04:00",
-                    "start_epoch": 1805478420,
+                    "start_epoch": 1805478240,
                     "end_epoch": 1805481000
                 },
                 {
